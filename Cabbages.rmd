@@ -52,6 +52,10 @@ It looks like the C52 method is producting more Vitamins c than the C39 method. 
 ### Numerical Descriptive Results
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
+```{r}
+favstats(VitC~Cult,data=veggy)
+```
+
 
 ## Inferential Results
 
