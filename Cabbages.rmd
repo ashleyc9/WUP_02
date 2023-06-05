@@ -55,12 +55,18 @@ It looks like the C52 method is producting more Vitamins c than the C39 method. 
 ```{r}
 favstats(VitC~Cult,data=veggy)
 ```
-
+  
+Even for the min, median and mean, C39 does not out beat C52 with vitamin c. C39 is around 51% like I stated above, while c52 is around 64%. There is not a huge difference between the two, but C52 still produces more Viatmin C. 
 
 ## Inferential Results
 
 <!--State hypothesis clearly.  Make sure your discussion of the inferential test covers all the aspects that the test output produces, such as test statistic, p-value etc.  Make a decision about the null hypothesis, explain the assumptions on which the selected test/procedure was based, and why the chosen procedure satisfys the assumptions and is appropriate to answer the research question!-->
 
+```{r}
+t.test(VitC~Cult,data=veggy)
+```
+  
+With this inferential chart, it shows the results in words rather than in a box chart or graph. The mean for C39 is 51.5 and C52 is 64.4 which gives the same results and answers as in the above chart. 
 
 # Discussion and Conclusion
 
